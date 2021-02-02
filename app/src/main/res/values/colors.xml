@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#334AC9</color>
+    <color name="colorPrimaryDark">#334AC9</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="vert">#006400</color>
+    <color name="terquase">#B0E0E6</color>
+    <color name="bleu">#191970</color>
+    <color name="yellow">	#cccc00</color>
+    <color name="royalbleu">#3366cc</color>
+    <color name="jaune">#FFD700</color>
+    <color name="jjjjj">#556B2F</color>
+</resources>

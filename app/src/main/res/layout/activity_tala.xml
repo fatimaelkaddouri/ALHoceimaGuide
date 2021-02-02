@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quemado">
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="377dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="35dp"
+        android:text="   Située à 5km à l'Ouest de la ville d'Al-Hoceima, cette plage est d'une qualité excellente, elle s'étend sur une longueur de 1000m. Elle reçoit pendant la période estivale un nombre important de visiteurs en raison de son accessibilité et sa proximité de la ville. Elle est équipée actuellement d'un complexe touristique, et de quelques restaurants café."
+
+        android:textAlignment="gravity"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image3" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="888dp"
+        android:layout_height="236dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/text3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/tala" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quemado">
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="374dp"
+        android:layout_height="323dp"
+        android:layout_marginStart="21dp"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="57dp"
+        android:text="    Plage CALA-BONITA : Située à l'intérieur du périmètre urbain de la ville d'AL-Hoceima, la plage de Cala-Bonita dont la superficie s'élève à 5000m² environ, est équipée d'un camping d'une capacité de 150 places
+   avec un restaurant, un café et quelques installations sportives.  "
+        android:textAlignment="gravity"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="481dp"
+        android:layout_height="313dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/text2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/calabonita"
+        tools:ignore="MissingConstraints" />
+
+</android.support.constraint.ConstraintLayout>

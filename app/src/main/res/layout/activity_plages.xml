@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="115dp"
+            android:layout_height="81dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="-16dp"
+            android:layout_marginLeft="-16dp"
+            android:layout_marginTop="-7dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/agsl" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="-1dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@id/image1"
+            android:layout_toRightOf="@id/image1"
+            android:layout_weight="1"
+            android:text=" QEUMADO"
+            android:textColor="#0A0A0A"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-42dp"
+            android:layout_marginLeft="-42dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/cala" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="299dp"
+            android:layout_height="78dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="-18dp"
+            android:layout_marginLeft="-18dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@id/image2"
+            android:layout_toRightOf="@id/image2"
+            android:layout_weight="1"
+            android:text="CALABONITA"
+            android:textColor="#0A0A0A"
+            android:textColorHint="#0F0F0F"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+
+            android:id="@+id/image4"
+            android:layout_width="106dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-12dp"
+            android:layout_marginLeft="-12dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/talaaa" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="304dp"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/text7"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-1dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="4dp"
+            android:layout_toEndOf="@id/image4"
+            android:layout_toRightOf="@id/image4"
+            android:layout_weight="1"
+            android:text="TALA-YOUSSEF"
+            android:textColor="#0A0A0A"
+            android:textColorHint="#00050505"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="87dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/matad" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="322dp"
+            android:layout_height="81dp"
+            android:layout_above="@+id/text6"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-20dp"
+            android:layout_marginRight="-20dp"
+            android:layout_marginBottom="6dp"
+            android:layout_toEndOf="@id/image5"
+            android:layout_toRightOf="@id/image5"
+            android:layout_weight="1"
+            android:text="MATADERO"
+            android:textColor="#0A0A0A"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-9dp"
+            android:layout_marginLeft="-9dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/ile" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="310dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="22dp"
+            android:layout_marginLeft="22dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginEnd="-3dp"
+            android:layout_marginRight="-3dp"
+            android:layout_toEndOf="@id/image3"
+            android:layout_toRightOf="@id/image3"
+            android:layout_weight="1"
+            android:text="SFIHA"
+            android:textColor="#0A0A0A"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic" />
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+            android:id="@+id/image6"
+            android:layout_width="129dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-19dp"
+            android:layout_marginLeft="-19dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/soini" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="313dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="-11dp"
+            android:layout_marginRight="-11dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@id/image6"
+            android:layout_toRightOf="@id/image6"
+            android:layout_weight="1"
+            android:text="SOUANI"
+            android:textColor="#0A0A0A"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5">
+
+
+        <ImageView
+            android:id="@+id/image7"
+            android:layout_width="96dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="-6dp"
+            android:layout_marginLeft="-6dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/badis" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="308dp"
+            android:layout_height="76dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="6dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="-6dp"
+            android:layout_marginRight="-6dp"
+            android:layout_marginBottom="0dp"
+            android:layout_toEndOf="@id/image7"
+            android:layout_toRightOf="@id/image7"
+            android:layout_weight="1"
+            android:text="BADES"
+            android:textColor="#0A0A0A"
+            android:textSize="30dp"
+            android:textStyle="normal|bold|italic" />
+
+    </RelativeLayout>
+
+</LinearLayout>

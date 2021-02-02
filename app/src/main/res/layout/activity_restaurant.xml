@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#D2D8DB">
+
+
+        <ImageView
+            android:id="@+id/image1"
+            android:layout_width="108dp"
+            android:layout_height="102dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="-4dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/palace" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@id/image1"
+            android:layout_toRightOf="@id/image1"
+            android:layout_weight="1"
+            android:text="RESTAURANT MIRA PALACE"
+            android:textColor="#0A0A0A"
+            android:textSize="22dp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/te1"
+            android:layout_width="296dp"
+            android:layout_height="51dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginRight="0dp"
+            android:text="Espace Mirador
+                                  Tel: +212 539 84 00 84"
+            android:textColor="#2B45D5"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#D2D8DB">
+
+
+        <ImageView
+            android:id="@+id/image2"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/basilic" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@id/image2"
+            android:layout_toRightOf="@id/image2"
+            android:layout_weight="1"
+            android:text="RESTAURANT BAZILIC"
+            android:textColor="#0A0A0A"
+            android:textSize="22dp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/te2"
+            android:layout_width="290dp"
+            android:layout_height="68dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="#D2D8DB"
+            android:text="131 Ave Abdelkarim ELKhattabi
+            Tel: +212 5399 80083"
+            android:textColor="#2B45D5"
+            android:textSize="18dp" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#D2D8DB">
+
+
+        <ImageView
+            android:id="@+id/image3"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/meramar" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@id/image3"
+            android:layout_toRightOf="@id/image3"
+            android:layout_weight="1"
+            android:text="ESPACE MIRAMAR"
+            android:textColor="#0A0A0A"
+            android:textSize="22dp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/te3"
+            android:layout_width="288dp"
+            android:layout_height="76dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="34dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginRight="11dp"
+            android:text="Rue Moulay Ismail
+                          Tel: +212 539984242"
+            android:textColor="#2B45D5"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#D2D8DB">
+
+
+        <ImageView
+
+            android:id="@+id/image4"
+            android:layout_width="110dp"
+            android:layout_height="128dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/jitpark" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@id/image4"
+            android:layout_toRightOf="@id/image4"
+            android:layout_weight="1"
+            android:text="AYMEN JET PARC"
+            android:textColor="#0A0A0A"
+            android:textSize="22dp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/te4"
+            android:layout_width="285dp"
+            android:layout_height="74dp"
+            android:layout_above="@+id/text5"
+            android:layout_below="@+id/text4"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="39dp"
+            android:text="Al hoceima 32000,MAROC,cournich sabadia
+                                           Tel: +212 624661006"
+            android:textColor="#2B45D5"
+            android:textSize="18dp"
+            tools:ignore="NotSibling" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="5dp"
+        android:background="#F2F4F5"
+        android:layout_alignParentLeft="true">
+
+
+        <ImageView
+            android:id="@+id/image5"
+            android:layout_width="109dp"
+            android:layout_height="109dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/nakhil" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="291dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@id/image5"
+            android:layout_toRightOf="@id/image5"
+            android:layout_weight="1"
+            android:background="#D2D8DB"
+            android:text="RESTAURANT ENNAKHIL"
+            android:textColor="#0A0A0A"
+            android:textSize="22dp"
+            android:textStyle="normal|bold|italic" />
+
+        <TextView
+            android:id="@+id/te5"
+            android:layout_width="291dp"
+            android:layout_height="93dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginRight="5dp"
+
+            android:background="#D2D8DB"
+            android:text="Avenue Abdelkrim EL khatabi
+                           Tel: +212 539840740"
+            android:textColor="#2B45D5"
+            android:textSize="18dp" />
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quemado">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="376dp"
+        android:layout_height="302dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:text="   A 3km de la ville d'AL-Hoceima en allant vers l'Est, s'étend la plage d'Espalmadero en forme d'arc de cercle sur une longueur de 200m environ et une superficie totale de 10.000m².Le sable est presque inexistant, en revanche les galets sont très nombreux. La plage ne dispose actuellement d'aucun équipement, elle connaît un degré de fréquentation relativement important."
+        android:textAlignment="gravity"
+        android:textColor="#0E0D0D"
+        android:textSize="20sp"
+        android:textStyle="normal"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.384"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="733dp"
+        android:layout_height="287dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/matadero" />
+
+
+</android.support.constraint.ConstraintLayout>
