@@ -23,5 +23,4 @@ the screenshots of this app:
 *Depuis cette interface on peut gérer l’api Google Map, les fonctionnalités sont : 
 •	Localisation géographique des endroits sur la carte 
 
-
 [![7.png](https://i.postimg.cc/1z7H504q/7.png)](https://postimg.cc/DWssxXrv)
